@@ -138,7 +138,6 @@ function windowResizeHandler() {
   width = window.innerWidth;
   height = window.innerHeight;
   starCount = width * starDensity;
-  // console.log(starCount)
   circleRadius = (width > height ? height / 2 : width / 2);
   circleCenter = {
     x: width / 2,
